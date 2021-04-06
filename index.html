@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="card mt-5">
+                <div class="card-header text-center">
+                    <b>BMI Calculator</b>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <form action="">
+                            <div>
+                            <input id="bmiCl" class=" form-control m-auto w-50" type="number" placeholder="Weight"><br/>
+                            <input id="bmiCl2" class="mt-2 form-control m-auto w-50" type="number" placeholder="Height"><br/>
+                            <input readonly id="showData"  class=" form-control m-auto w-50 " type="text" placeholder="Your BMI"><br/>
+                            <input onclick="myfun()" class=" form-control m-auto w-50" type="submit" value="Click"id="click">
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-center lead"><b>BMI Normal weight  18.5 To 24.9 </b>
+            <h6 class="text-muted">Designer Rashid khan</h6>
+            </div>
+        </div>
+    </header>
+    <script src="js/index.js"></script>
+</body>
+</html>

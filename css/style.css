@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Crimson Pro',
+    serif;
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgb(0 0 0 / 63%);
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+    .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(114 236 49 / 77%);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    };
+    #click{
+        background-color: aqua;
+    }
